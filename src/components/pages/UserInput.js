@@ -17,7 +17,7 @@ const Input=()=>{
     }
     const onSubmit=async (e)=>{
         e.preventDefault();
-        await axios.post("https://my-json-server.typicode.com/CoderOnTheRoad/react-admin-app/users",user)
+        await axios.post("https://my-json-server.typicode.com/CoderOnTheRoad/server-repo-for-react-admin-app/users",user)
         navigate("/info");
     }
     return (

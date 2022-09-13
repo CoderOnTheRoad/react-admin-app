@@ -26,7 +26,7 @@ const EditUser=()=>{
     }
     const onSubmit=async (e)=>{
         e.preventDefault();
-        await axios.put("https://my-json-server.typicode.com/CoderOnTheRoad/react-admin-app/users/"+id,user);
+        await axios.put("https://my-json-server.typicode.com/CoderOnTheRoad/server-repo-for-react-admin-app/users/"+id,user);
         navigate("/info");
     }
     return (

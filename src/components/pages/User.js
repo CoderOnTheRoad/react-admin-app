@@ -18,7 +18,7 @@ const User=()=>{
         loadUser();
     },[]);
     const loadUser=async ()=>{
-        const result= await axios.get("https://my-json-server.typicode.com/CoderOnTheRoad/react-admin-app/users/"+id);
+        const result= await axios.get("https://my-json-server.typicode.com/CoderOnTheRoad/server-repo-for-react-admin-app/users/"+id);
          setUser(result.data);
          // navigate("/info");
      }

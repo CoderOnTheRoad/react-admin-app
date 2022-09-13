@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CoderOnTheRoad/react-admin-app/static/css/main.81c26c20.css",
+    "main.js": "/CoderOnTheRoad/react-admin-app/static/js/main.d4937515.js",
+    "index.html": "/CoderOnTheRoad/react-admin-app/index.html",
+    "main.81c26c20.css.map": "/CoderOnTheRoad/react-admin-app/static/css/main.81c26c20.css.map",
+    "main.d4937515.js.map": "/CoderOnTheRoad/react-admin-app/static/js/main.d4937515.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81c26c20.css",
+    "static/js/main.d4937515.js"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "admin-app",
-  "homepage": "https://github.com/CoderOnTheRoad/react-admin-app/",
+  "homepage": "https://coderontheroad.github.io/react-admin-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,8 +21,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "json-server": "json-server --watch db.json",
-    "start-dev": "concurrently \"npm start\" \"npm run json-server\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build", 
     "build": "react-scripts build",

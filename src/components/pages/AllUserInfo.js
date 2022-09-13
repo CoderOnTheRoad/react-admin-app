@@ -17,7 +17,7 @@ const Info=()=>{
         // return result;
     }
     const deleteUser= async(id)=>{
-        await axios.delete(`http://localhost:3003/users/${id}`);
+        await axios.delete(`https://my-json-server.typicode.com/CoderOnTheRoad/react-admin-app/users/${id}`);
         loadUsers();
     }
     return (

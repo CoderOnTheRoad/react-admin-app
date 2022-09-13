@@ -1,0 +1,9 @@
+.sidebar{
+    position: absolute;
+    left:0px;
+    width: 15vw;
+    height: 90%;
+    margin-top: 1px;
+    background-color: bisque !important;
+    color: black !important;
+}
